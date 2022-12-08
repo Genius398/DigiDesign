@@ -1,41 +1,41 @@
-.navbar{
-    background-color: #9062b8;
-    border-color: #9062b8;
-    border-width: 100px;
+body {
+    font-family: Arial;
+    margin: 0;
 }
-.navbar ul{
-    overflow: auto;
-}
-.navbar li{
-    float:left;
-    list-style: none; 
-    margin: 13px 20px;
-    
-}
-.navbar li a{
-    padding: 3px 3px;
-    text-decoration: none;
+  
+  /* Header/Logo Title */
+
+.header {
+    padding: 0.1;
+    background-color: #4d97ff;
     color: white;
 }
-.navbar li a:hover{
-    color: rgb(143, 148, 228)
+
+#head{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
 }
-.search{
-    float: right;
-    color: rgb(255, 255, 255);
-    padding: 12px 75px;
-}
-.navbar input{
-    border: 2px solid black;
-    border-radius: 14px;
-    padding: 3px 17px;
-    width: 129px;
+  
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.navBarSubPorts{
-    font-size: 22.5px;
+.content>div{
+    flex: 1 1 150px;
+    height: fit-content;
+    padding-top: 0.1;
+
 }
 
-body{
-    background-color: #9062b8;
+#tutorialHead{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#tutorialText{
+    width: 100%;
+    flex: 1 1 150px;
 }
